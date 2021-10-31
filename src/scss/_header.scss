@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    background-color: #e9c46a;
+    border-radius: 15px;
+    padding: 1rem;
+    justify-content: center;
+    .logo-img{
+        width: 25rem;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.title{
+    text-align: center;
+}

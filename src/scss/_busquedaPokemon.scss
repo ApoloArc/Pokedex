@@ -1,0 +1,52 @@
+.busquedaPokemon{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    width: 100%;
+    justify-content: space-evenly;
+    .busquedaPokemonNombre, .busquedaPokemonTipo{
+        gap: 1rem;
+        width: 60%;
+        display: flex;
+        .btnBuscar{
+            background-color: #2a9d8f;
+            color: white;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 1rem;
+            border: none;
+            border-radius: 1.5rem;
+            height: 5rem;
+            cursor: pointer;
+            width: 30%;
+        }
+    }
+    .ordenarPokemones{
+        width: 30%;
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .btnBuscar{
+            
+            background-color: #2a9d8f;
+            color: white;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 1rem;
+            border: none;
+            border-radius: 1.5rem;
+            height: 5rem;
+            cursor: pointer;
+            width: 100%;
+            text-align: center;
+            font-size: 1.5rem;
+            option{
+                cursor: pointer;
+            }
+        }
+    }
+    
+}

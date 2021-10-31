@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poke-test</title>
+</head>
+<body>
+    <header class="header">
+
+        <img class='logo-img' src="./img/logo.png" alt="logo">
+
+    </header>
+
+    <div class="title"><h1>Mi Pokedex 👾</h1></div>
+    <hr>
+
+
+    <div class="busquedaPokemon">
+
+        
+        <div class="busquedaPokemonNombre">
+            <input class="buscarNombre" id='pokeBusqueda' type="text" placeholder="Busca un Pokemón" autocomplete="off">
+            <input class= 'btnBuscar' id="pokeBtn" type="button" value="buscar"/>
+        </div>
+
+        <div class="busquedaPokemonTipo">
+
+            <input class="buscarNombre" id='pokeBusquedaTipo' type="text" placeholder="Busca un tipo de Pokemon" autocomplete="off">
+            <input class="btnBuscar" id="pokeBtnTipo" type="button" value="buscar"/>
+        
+        </div>
+
+        
+        <div class="ordenarPokemones">
+            <label for="orden"><p>Ordenar</p></label>
+            <select class="btnBuscar" id="orden">
+                <option id="resetOptions" value="Ordenar Pokemones">Ordenar Pokemones</option>
+                <option id="ordenarAZ" value="Ordenar de la A - Z">Ordenar de la A - Z</option>
+                <option id="ordenarZA" value="Ordenar de la Z -A">Ordenar de la Z - A</option>
+            </select>
+        </div>
+
+    </div>
+
+        
+
+    
+
+    <div class="cards" id="pokeCards"></div>
+
+    <nav  class="paginacion">
+        <input class="pag" type="button" id="antes" value="Antes"/>
+        <input class="pag" type="button" id="despues" value="Después"/>
+
+    </nav>
+
+    <script src="./dist/main.js"></script>
+</body>
+</html>
